@@ -6,7 +6,7 @@
 
 Report issues, assign ownership, and follow every task through to resolution.
 
-![Status](https://img.shields.io/badge/Status-Planning-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Implemented-brightgreen?style=for-the-badge)
 ![Planned Python](https://img.shields.io/badge/Planned-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Planned Flask](https://img.shields.io/badge/Planned-Flask-black?style=for-the-badge&logo=flask&logoColor=white)
 
@@ -16,11 +16,11 @@ Report issues, assign ownership, and follow every task through to resolution.
 
 ## 📌 Overview
 
-**IncidentBoard** is a lightweight issue-tracking project intended for student teams, labs, and small organizations. It is designed to make it easier to report problems, assign responsibility, set priorities, and track issues until they are resolved.
+**IncidentBoard** is a Flask + SQLite issue tracker for student teams and small organizations to report, prioritize, assign, and resolve issues. It is designed to make it easier to report problems, assign responsibility, set priorities, and track issues until they are resolved.
 
-> **Development note:** This repository currently contains the project documentation only. The application and features below are planned, not implemented.
+> **Current status:** Implemented with issue creation, priority and assignee updates, status transitions, filtering, and an activity history.
 
-## ✨ Planned Features
+## ✨ Features
 
 - 📝 Create issues with a title, description, and category
 - 🎯 Set priority: Low, Medium, High, or Critical
@@ -30,7 +30,7 @@ Report issues, assign ownership, and follow every task through to resolution.
 - 🕒 Maintain a timestamped activity history
 - 📊 View summaries of open and resolved issues
 
-## 🛠️ Planned Tech Stack
+## 🛠️ Tech Stack
 
 | Technology | Intended use |
 |---|---|
@@ -40,7 +40,7 @@ Report issues, assign ownership, and follow every task through to resolution.
 | HTML, CSS, JavaScript | User interface |
 | pytest | Automated testing |
 
-## 🔄 Proposed Issue Workflow
+## 🔄 Issue Workflow
 
 ```text
 Open → In Progress → Resolved
@@ -59,7 +59,21 @@ Important status and assignment changes should create an activity entry containi
 - [ ] Write automated tests and add sample issues
 - [ ] Add screenshots and deployment instructions
 
-## 📁 Intended Project Structure
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/kalashsri18-crypto/IncidentBoard.git
+cd IncidentBoard
+python -m venv .venv
+# Windows: .venv\\Scripts\\activate
+# macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+Open http://127.0.0.1:5000. Run tests with `pytest -q`.
+
+## 📁 Project Structure
 
 ```text
 .
