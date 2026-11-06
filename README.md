@@ -1,27 +1,66 @@
-# IncidentBoard
+<div align="center">
+
+# 🚨 IncidentBoard
+
 ### Lightweight Issue Reporting & Resolution Tracker
 
-IncidentBoard is a small-team issue tracking project for reporting problems, assigning ownership, setting priorities, and following each issue through to resolution. It is intended for student teams, labs, and small internal projects that need a simple shared workflow.
+Report issues, assign ownership, and follow every task through to resolution.
 
-> **Repository description:** A lightweight issue-tracking board concept with priorities, assignment, status changes, and an activity history.
+![Status](https://img.shields.io/badge/Status-Planning-orange?style=for-the-badge)
+![Planned Python](https://img.shields.io/badge/Planned-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Planned Flask](https://img.shields.io/badge/Planned-Flask-black?style=for-the-badge&logo=flask&logoColor=white)
 
-## Planned product features
-- Create issues with title, description, and category
-- Set priority (Low, Medium, High, Critical)
-- Assign an issue to a team member
-- Track status from Open to In Progress to Resolved
-- Filter issues by status, priority, or assignee
-- Record a timestamped activity trail for important changes
-- View summary counts for open and resolved issues
+</div>
 
-## Planned technology
-- Python 3.10+
-- Flask
-- SQLite
-- HTML, CSS and vanilla JavaScript
-- pytest
+---
 
-## Intended project structure
+## 📌 Overview
+
+**IncidentBoard** is a lightweight issue-tracking project intended for student teams, labs, and small organizations. It is designed to make it easier to report problems, assign responsibility, set priorities, and track issues until they are resolved.
+
+> **Development note:** This repository currently contains the project documentation only. The application and features below are planned, not implemented.
+
+## ✨ Planned Features
+
+- 📝 Create issues with a title, description, and category
+- 🎯 Set priority: Low, Medium, High, or Critical
+- 👤 Assign issues to team members
+- 🔄 Track status from Open to In Progress to Resolved
+- 🔎 Filter issues by status, priority, or assignee
+- 🕒 Maintain a timestamped activity history
+- 📊 View summaries of open and resolved issues
+
+## 🛠️ Planned Tech Stack
+
+| Technology | Intended use |
+|---|---|
+| Python 3.10+ | Core programming language |
+| Flask | Web application |
+| SQLite | Local data storage |
+| HTML, CSS, JavaScript | User interface |
+| pytest | Automated testing |
+
+## 🔄 Proposed Issue Workflow
+
+```text
+Open → In Progress → Resolved
+  └────────────────→ Closed
+```
+
+Important status and assignment changes should create an activity entry containing the issue ID, action, timestamp, and relevant details.
+
+## 🗺️ Roadmap
+
+- [ ] Set up Flask application and SQLite schema
+- [ ] Implement issue creation and editing
+- [ ] Add assignment and priority controls
+- [ ] Build status transitions and activity history
+- [ ] Add filters and dashboard summaries
+- [ ] Write automated tests and add sample issues
+- [ ] Add screenshots and deployment instructions
+
+## 📁 Intended Project Structure
+
 ```text
 .
 ├── app.py
@@ -34,23 +73,13 @@ IncidentBoard is a small-team issue tracking project for reporting problems, ass
 └── README.md
 ```
 
-## Development status
-**Planning / README scaffold.** Only the project overview is currently present in this repository. The issue board, database, tests, and interface are not implemented yet. Features listed above describe the intended scope.
+## 👨‍💻 Author
 
-## Proposed issue lifecycle
-```text
-Open → In Progress → Resolved
-  └──────────────→ Closed
-```
-A status or assignment change should create an activity entry with the issue ID, action, timestamp, and relevant details.
+**Kalash Srivastava**  
+[GitHub](https://github.com/kalashsri18-crypto) · [LinkedIn](https://www.linkedin.com/in/kalash-srivastava-b6592a3b3) · [Email](mailto:kalashsri18@gmail.com)
 
-## Roadmap
-- [ ] Implement Flask application and SQLite schema
-- [ ] Add issue creation and editing
-- [ ] Add assignment and priority controls
-- [ ] Implement status transitions and activity history
-- [ ] Add filtering and dashboard summaries
-- [ ] Add tests, sample issues, and screenshots
+---
 
-## License
-See [LICENSE](LICENSE) if a license file is added to this repository.
+<div align="center">
+  Documentation and project direction by Kalash
+</div>
