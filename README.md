@@ -7,8 +7,8 @@
 Report issues, assign ownership, and follow every task through to resolution.
 
 ![Status](https://img.shields.io/badge/Status-Implemented-brightgreen?style=for-the-badge)
-![Planned Python](https://img.shields.io/badge/Planned-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Planned Flask](https://img.shields.io/badge/Planned-Flask-black?style=for-the-badge&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask&logoColor=white)
 
 </div>
 
